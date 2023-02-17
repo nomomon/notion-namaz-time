@@ -22,7 +22,7 @@ const TimeDisplay: FC<TimeDisplayProps> = ({ prayerTime }) => {
     const currentPrayer = names[index];
 
     return (
-        <div className="w-full flex flex-row justify-around max-md:flex-col max-md:gap-4">
+        <div className="w-full flex flex-row justify-around max-md:flex-col max-md:gap-4 dark:text-white">
             <div className="flex-1 flex flex-row justify-around max-w-lg max-md:max-w-full max-sm:flex-col max-sm:mb-8">
                 <div className="flex flex-col text-center">
                     <div className="text-xl font-semibold">{prayerTime.place.city}</div>
