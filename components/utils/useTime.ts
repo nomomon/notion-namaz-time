@@ -13,7 +13,7 @@ const useTime = () => {
         };
     }, []);
 
-    return time.toLocaleTimeString('en-US', { hour12: false, hour: 'numeric', minute: 'numeric' });
+    return time.toLocaleTimeString("en-GB", { hour12: false, hour: "2-digit", minute: "2-digit" });
 }
 
 export default useTime;
