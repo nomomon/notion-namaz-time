@@ -1,5 +1,7 @@
 # Notion Namaz Time
 
+![Prayer times for Groningen](assets/screenshot.png)
+
 Prayer times for Groningen (ISNA), built as a small Next.js widget. Live clock and today’s Fajr, Sunrise, Dhuhr, Asr, Maghrib, Isha.
 
 ## What it does
